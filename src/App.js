@@ -4,7 +4,7 @@ import { AppContext } from "./context/contextApi";
 
 import Header from "./components/Header";
 import Feed from "./pages/Feed";
-import SearchResult from "./pages/SearchResult";
+// import SearchResult from "./pages/SearchResult";
 import VideoDetails from "./pages/VideoDetails";
 import ErrorComponent from "./shared/ErrorComponent";
 
@@ -24,7 +24,7 @@ const appRouter = createBrowserRouter([
     errorElement: <ErrorComponent />,
     children: [
       { path: "/", element: <Feed /> },
-      { path: "/searchResult/:searchQuery", element: <SearchResult /> },
+      // { path: "/searchResult/:searchQuery", element: <SearchResult /> },
       { path: "/video/:id", element: <VideoDetails /> },
     ],
   },

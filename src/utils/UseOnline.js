@@ -23,6 +23,7 @@ const UseOnline = () => {
   }, []);
 
   return isOnline;
+
 };
 
 export default UseOnline;
